@@ -1,7 +1,6 @@
 {
   "name": "insomnia-plugin-intercept-callback-response",
   "version": "0.0.1",
-  "private": true,
   "insomnia": {
     "name": "intercept-callback-response",
     "description": ""
