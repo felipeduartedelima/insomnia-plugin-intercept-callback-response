@@ -1,14 +1,31 @@
 {
   "name": "insomnia-plugin-intercept-callback-response",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "insomnia": {
     "name": "intercept-callback-response",
     "description": ""
   },
-  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeduartedelima/insomnia-plugin-intercept-callback-response.git"
+  },
+  "author": "felipeduartedelima",
+  "license": "ISC",
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "custom",
+    "callback",
+    "generate"
+  ],
+  "homepage": "https://github.com/felipeduartedelima/insomnia-plugin-intercept-callback-response",
+  "main": "index.js",
+  "devDependencies": {},
   "dependencies": {
-    "buffer": "^6.0.3",
     "express": "^4.17.3",
     "ngrok": "^4.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
